@@ -5,7 +5,12 @@ In this topic, we'll experiment how Machine Learning can help automate the categ
 The text data in French are processed using pos-tags, lemmatization and tokenization with `TfidfVectorizer` and `Keras Tokenizer`. Then, some simple classification models are used to demonstrate the categorization step, evaluate the results & suggest future improvement.
 
 ### Modeling
-Models used include: `SGDClassifier` & `Multilayer Perceptron` with `TensorFlow/Keras`, hyperparameter tuning by `Keras RandomSearch & Hyperband Tuners`.
+Models used include:
+- `SGDClassifier`: accuracy score at 
+- `Multilayer Perceptron` with `TensorFlow/Keras`:
+    - Settings: 1 hidden layer
+    - To prevent overfitting: using a `Dropout` layer and `EarlyStopping`.
+    - Hyperparameter tuning using 2 Keras Tuners: `RandomSearch` & `Hyperband`.
 
 ### Dataset
 The dataset contains product information as follows:
