@@ -12,6 +12,9 @@ Models used include:
     - To prevent overfitting: using a `Dropout` layer and `EarlyStopping`.
     - Hyperparameter tuning using 2 Keras Tuners: `RandomSearch` & `Hyperband`.
 
+### Notebook:
+The full Python code can be downloaded from this repo. A browser view is also available here: <a href="https://nbviewer.jupyter.org/github/trang-h-vo/NLP-Auto-Categorization/blob/main/Auto_Categorization.ipynb"> Auto_Categorization.ipynb </a>.
+
 ### Dataset
 The dataset contains product information as follows:
 
