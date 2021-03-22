@@ -1,6 +1,12 @@
 ## NLP-Auto-Categorization
 In this topic, we'll experiment how Machine Learning can help automate the categorization procedure at an online marketplace, where thousands of new products are listed everyday. Auto-categorization with reasonable accuracy help the company to reduce manual work, speed up the product display & recommendation on the platform, hence boosting sales activities & immprove customer shopping experience.
 
+### Text preprocessing
+The text data in French are processed using pos-tags, lemmatization and tokenization with `TfidfVectorizer` and `Keras Tokenizer`. Then, some simple classification models are used to demonstrate the categorization step, evaluate the results & suggest future improvement.
+
+### Modeling
+Models used include: `SGDClassifier` & `Multilayer Perceptron` with `TensorFlow/Keras`, hyperparameter tuning by `Keras RandomSearch & Hyperband Tuners`.
+
 ### Dataset
 The dataset contains product information as follows:
 
@@ -18,5 +24,3 @@ There are 10,000 instances provided, corresponding to nearly 2,000 product categ
 #### Disclaimer:
 This dataset is provided & used for educational purpose only. 
 
-### Text preprocessing & modeling
-The text data in French are processed using pos-tags, lemmatization and tokenization with TfidfVectorizer. Then, some simple classification models are used to demonstrate the categorization step, evaluate the results & suggest future improvement.
