@@ -1,5 +1,5 @@
 ## NLP-Auto-Categorization
-In this topic, we'll experiment how Machine Learning can help automate the categorization procedure at an online marketplace, where thousands of new products are listed everyday. Auto-categorization with reasonable accuracy help the company to reduce manual work, speed up the product display & recommendation on the platform, hence boosting sales activities & immprove customer shopping experience.
+This project shows how Machine Learning can help automate the categorization procedure at an online marketplace, where thousands of new products are listed every day. Auto-categorization with reasonable accuracy helps the company to reduce manual work, speed up the product display & recommendation on the platform, hence boosting sales activities & improve customer shopping experience.
 
 ### Text preprocessing
 The text data in French are processed using pos-tags, lemmatization and tokenization with `TfidfVectorizer` and `Keras Tokenizer`. Then, some simple classification models are used to demonstrate the categorization step, evaluate the results & suggest future improvement.
